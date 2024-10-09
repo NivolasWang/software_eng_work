@@ -1,0 +1,93 @@
+* {
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  width: 60px;
+  text-align: left;
+}
+
+h2 {
+  padding: 20px 0 20px 0;
+}
+
+select {
+  text-align: left;
+  width: 80px;
+}
+
+button {
+  margin-left: 15px;
+  cursor: pointer;
+  background-color: #86c1d3;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+}
+
+#phone,
+#sub_phone {
+  width: 100px;
+}
+
+.count {
+  width: 680px;
+  height: 35px;
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  text-align: right;
+  line-height: 35px;
+  padding-right: 20px;
+}
+
+.sub_infor {
+  width: 700px;
+  height: 35px;
+  background-color: #f2f2f2;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 35px;
+  display: none;
+}
+
+.replacing {
+  background-color: #e86e3c;
+}
+
+.count .numbers {
+  display: inline-block;
+
+  color: #e86e3c;
+}
+
+.dels {
+  color: #e86e3c
+}
+
+table {
+  width: 700px;
+  border-spacing: 0
+}
+
+td,
+th {
+  padding: 0 15px 0 15px;
+  height: 30px;
+  font-size: 15px;
+  border: #f4f4f4 solid 1px;
+}
+
+tbody tr:hover {
+  background: #e1ecf8;
+}
+
+thead {
+  background-color: #f2f2f2;
+
+}

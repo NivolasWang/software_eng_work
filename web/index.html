@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>联系人存储表</h2>
+  <div>
+    <form class="infor" autocomplete="off">
+      姓名: <input id="name" type="text" name="name" value="">
+      年龄: <input id="age" type="text" name="age" value="">
+      电话号码：<input id="phone" type="phone" name="phone" value="">
+      性别：<select id="gender" name="gender">
+        <option selected="selected">男</option>
+        <option>女</option>
+      </select>
+      <button class="adding">添加</button>
+    </form>
+
+  </div>
+  <div class="count">共有数据 <div class="numbers"> 0</div> 条
+  </div>
+
+  <form class="sub_infor" autocomplete="off">
+    姓名: <input id="sub_name" type="text" name="name" value="">
+    年龄: <input id="sub_age" type="text" name="age" value="">
+    电话号码：<input id="sub_phone" type="phone" name="phone" value="">
+    性别：<select id="sub_gender" name="gender">
+      <option selected="selected">男</option>
+      <option>女</option>
+    </select>
+    <button class="replacing">替换</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>电话号码</th>
+        <th>性别</th>
+        <th>录入时间</th>
+        <th>操作</th>
+      </tr>
+
+    </thead>
+    <tbody>
+      <!-- <td>1</td>
+      <td>Peter Parker</td>
+      <td>31</td>
+      <td>13252648526</td>
+      <td>男</td>
+      <td>2011.01.25</td>
+      <td><a href="#" class="dels">删除</a> <a href="#" class="revise">修改</a></td> -->
+    </tbody>
+  </table>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
