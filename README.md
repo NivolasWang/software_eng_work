@@ -7,7 +7,7 @@
 
 ##安装包
 ```
-所需安装包存储于pakage.json中，请在文件夹目录终端输入 npm install 来安装express和mysql2
+所需安装的包存储于pakage.json中，请在该文件夹目录终端输入 npm install 来安装express和mysql2
 ```
 
 ##前端
@@ -22,5 +22,5 @@
 
 ##使用前要做的调整
 ```
-请提前创建一个名叫informations，包含ID,name,age,phone,gender,time属性的mysql表，并且于 mysql.js 文件开头备注区域填入该数据库表所在的数据库名称，mysql用户名与mysql密码
+请提前创建一个名叫informations，包含ID,name,age,phone,gender,time属性的mysql表。并且将ID属性定为关键字段，唯一引索且自动增加，所有属性定为非空。并且于 mysql.js 文件开头备注区域填入该数据库表所在的数据库名称，mysql用户名与mysql密码
 ```
