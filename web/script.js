@@ -156,6 +156,7 @@ tbody.addEventListener('click', (e) => {
         }).then(result => {
           sub_information.style.display = 'none'
           console.log(result)
+          temp = null
           get_information()
         })
 
